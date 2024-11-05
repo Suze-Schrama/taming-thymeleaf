@@ -3,7 +3,7 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
-  content: ['./src/main/resources/templates/*.html'],
+  content: ['./src/main/resources/templates/*.html', './src/main/resources/templates/**/*.svg'],
   theme: {
     extend: {
       fontFamily: {
@@ -11,8 +11,8 @@ module.exports = {
       },
       colors: {
         'taming-thymeleaf-green': 'darkseagreen'
-      }
-    },
+      },
+    }
   },
   plugins: [
     require('@tailwindcss/forms')
