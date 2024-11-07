@@ -39,3 +39,4 @@ build/
 /node/
 /.mvn/
 /.env
+/src/main/resources/application-local.properties

@@ -1,4 +1,4 @@
-package com.tamingthymeleaf.application.user;
+package com.tamingthymeleaf.taming_thymeleaf.user;
 
 import io.github.wimdeblauwe.jpearl.AbstractEntityId;
 
